@@ -72,7 +72,9 @@ In this category of methods, data is organized in a hierarchical tree structure 
 The BIRCH clustering algorithm is one of the prominent methods available in this category of clustering methods.
 
 The experimental results are reported based on ARI queries and standard deviation. The standard deviation of ARI is one of the dispersion indicators that shows how much, on average, the data deviates from the mean. If the standard deviation of a data set is close to zero, it indicates that the data points of different clusters are close to each other and have little dispersion, while a large standard deviation indicates significant data dispersion. The kernel matrices {K1_v, K2_v, …, K5_v, K1_g, K2_g, …, K7_g} have been considered as the base kernels in all experiments.
-![image](https://ibb.co/b6dqNgV)
+
+![image](https://github.com/user-attachments/assets/31a2bb5e-230e-4d89-85bc-4c82a7131e7e)
+)
 
 
 The analysis and comparison of the proposed method with other methods were conducted based on metrics such as the standard deviation and the number of queries. As observed in the behavior of other methods shown in the charts in Figure 4, it can be inferred that the proposed method is more efficient than other clustering methods like KMeans, MPC-KMeans, and hierarchical clustering. This indicates the high reliability of the proposed method. The superiority of the proposed method compared to the KMeans method can be attributed to its nonlinear nature, which, by utilizing a multi-core learning model within the framework of mapping reduction, is capable of discovering complex relationships between data, while the KMeans method suffers from the lack of this feature.
@@ -83,7 +85,7 @@ In comparing the proposed method with the MPC-KMeans method, which overall has p
 
 Determining the appropriate values for the weighting coefficients m and p is an open issue in the field of fuzzy clustering. For example, Table 1 shows the efficiency of the proposed method considering values of m=p=3 and m=p=1.3. According to this figure, fuzzier clustering has provided better results.
 
-![image](https://ibb.co/vY4DWtz)
+![image](https://github.com/user-attachments/assets/f0c1784b-3054-40ea-b476-3676ff82e190)
 
 Due to the alignment of the nature of data related to task scheduling concepts with the features of the data focused on in this article, the proposed method was also implemented on the CloudSim simulated dataset. CloudSim is a platform that has recently attracted the attention of researchers for simulating cloud computing scenarios, calculating time delays, and task scheduling. The required data was obtained through contact with one of the authors of reference [32]. This data included various features and information, some of the key features of which are:
 
