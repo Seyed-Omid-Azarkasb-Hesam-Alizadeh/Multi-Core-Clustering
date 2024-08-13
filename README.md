@@ -58,7 +58,7 @@ The following steps need to be perfomed :
 ### File Structure  
 - `Multi-Core-Clustering.ipynb` -> Jupyter Notebook with ML Model  
 - `Google Borg Primary Dataset.parquet` , `Final Dataset.parquet`  -> Dataset
-- `Project Report` - Report specifying the project
+- `Project Report` -> Report specifying the project
 
 
 
