@@ -57,7 +57,7 @@ The following steps need to be perfomed :
 
 ### File Structure  
 - `Multi-Core-Clustering.ipynb` -> Jupyter Notebook with ML Model  
-- `Validation_date.tsv` , `test_data.tsv` and `train_data.tsv`  -> Dataset
+- `Google Borg Primary Dataset.parquet` , `Final Dataset.parquet`  -> Dataset
 - `Project Report` - Report specifying the project
 
 
